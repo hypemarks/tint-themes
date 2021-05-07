@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TextArea /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <textarea
+    class="undefined textarea"
+    id="id"
+    name="name"
+    placeholder="Type here..."
+  >
+    value
+  </textarea>
+</DocumentFragment>
+`;

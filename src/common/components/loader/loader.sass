@@ -1,0 +1,22 @@
+@import '../../../styles/core/core'
+
+$pulseSize: 4em
+$pulseTiming: 1.2s
+@keyframes pulseanim
+  0%
+    transform: scale(0)
+    opacity: 0.5
+
+  100%
+    transform: scale(1)
+    opacity: 1
+
+.loader
+  position: absolute
+  z-index: $z-index-low
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+
+  img
+    animation: pulseanim $pulseTiming ease-in-out infinite

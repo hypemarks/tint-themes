@@ -1,0 +1,24 @@
+@import '../../../../styles/core/core'
+
+.navigation-button
+  color: $c-white
+  z-index: $z-index-lower
+  padding: 16px
+  cursor: pointer
+  position: absolute
+  display: flex
+  align-items: center
+  top: 50%
+
+  @include media(xsm, landscape)
+    padding: 24px
+
+  &--left
+    left: 0
+
+  &--right
+    right: 0
+
+  &--close
+    right: 24px
+    top: 0

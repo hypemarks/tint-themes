@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Loader /> Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="loader"
+    data-testid="loader"
+  >
+    <img
+      alt="tint"
+      src="https://cdn.hypemarks.com/assets/splash5/Logo_Icon_warmRed_@2x.png"
+    />
+  </div>
+</DocumentFragment>
+`;

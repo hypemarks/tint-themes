@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <PopupPostImage /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="popup-post-image"
+    style="background: rgb(0, 0, 0);"
+  >
+    <div
+      class="popup-post-image__image"
+      data-testid="image"
+    >
+      <div
+        class="popup-post-image__wrapper"
+      >
+        <div
+          class="image popup-post-image__image image--normal image--loading"
+          data-testid="image"
+        >
+          <div
+            class="image-popup image-popup--horizontal"
+          >
+            <img
+              alt=""
+              src="image_url"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

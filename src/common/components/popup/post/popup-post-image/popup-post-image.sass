@@ -1,0 +1,24 @@
+@import '../../../../../styles/core/core'
+
+.popup-post-image
+  &--with-padding
+    padding: 20px 20px 0 20px
+
+  &__image
+    @include media(xsm)
+      width: 100%
+      height: 100%
+
+  &__hotspot
+    transform: translate(-50%, -50%)
+    border-radius: 50%
+    width: 1.5em
+    height: 1.5em
+    background: $c-orange
+    position: absolute
+
+  &__wrapper
+    height: 100%
+    width: 100%
+    position: relative
+

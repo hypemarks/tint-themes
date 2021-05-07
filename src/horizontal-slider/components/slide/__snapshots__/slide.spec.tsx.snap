@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Slide /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="slide-container"
+    id="id"
+    style="flex: 0 0 25vw; padding: 5px; max-width: 25vw;"
+    tabindex="0"
+  >
+    <div
+      class="slide-container__slide"
+      style="background: rgb(255, 255, 255); flex-wrap: nowrap;"
+    >
+      <div
+        class="slider__box"
+      >
+        <div
+          class="slide-image"
+        >
+          <div
+            class="slide-image__cta-wrapper slide-image__cta-wrapper--with-image"
+          >
+            <div
+              class="call-to-action-group"
+            >
+              <div
+                class="cta-wrapper"
+              >
+                <div
+                  class="cta-wrapper__inner "
+                >
+                  <a
+                    class="cta-wrapper__button button"
+                    href="url?[object Object]"
+                    rel="noopener noreferrer"
+                    style="color: rgb(255, 255, 255); background: rgb(0, 0, 0);"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    <span>
+                      text
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="slider__box"
+      >
+        <div
+          class="slide-content"
+        >
+          <div
+            class="slide-content__header"
+          >
+            <a
+              aria-label="randomword profile image"
+              href="https://i.picsum.photos/id/230/200/300.jpg?hmac=pyhlpgJN2oBeEzhJbnJYrCsLoJM6MKd_NUQGIQhVx5k"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="slide-avatar"
+              />
+            </a>
+            <div
+              class="post-author"
+            >
+              <a
+                aria-label="Posted by randomword"
+                class="post-author__link"
+                data-testid="link"
+                href="https://i.picsum.photos/id/230/200/300.jpg?hmac=pyhlpgJN2oBeEzhJbnJYrCsLoJM6MKd_NUQGIQhVx5k"
+                rel="noopener noreferrer"
+                tabindex="0"
+                target="_blank"
+              >
+                <span
+                  class="post-author__author-name"
+                  data-testid="author-name"
+                  style="color: rgb(0, 0, 0);"
+                >
+                  randomword
+                </span>
+                <span
+                  class="post-author__username"
+                  data-testid="author-username"
+                  style="color: rgb(204, 204, 204);"
+                >
+                  @randomword
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="slide-content__text"
+          >
+            <div
+              aria-label="randomword"
+              class="post-content "
+              data-testid="post-content"
+              style="font-size: 16px; color: rgb(85, 238, 119); font-family: 'Lato';"
+            >
+              <div
+                class="post-content-link"
+                data-testid="post-content-link-button"
+                role="button"
+              >
+                randomword
+              </div>
+            </div>
+          </div>
+          <div
+            class="slide-content__footer"
+          >
+            <a
+              aria-label="published at Wed May 20 1992 12:20:30 GMT+0200 (Central European Summer Time)"
+              class="post-time"
+              data-testid="link"
+              href="randomword"
+              rel="noopener noreferrer"
+              style="color: rgb(0, 0, 0);"
+              tabindex="0"
+              target="_blank"
+            >
+              <time
+                datetime="1992-05-20T10:20:30.000Z"
+                title="Wed May 20 1992 12:20:30 GMT+0200 (Central European Summer Time)"
+              >
+                29yr
+              </time>
+            </a>
+            <span
+              class="slide-content__footer-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-youtube fa-w-18 fa-lg source-icon"
+                color="#FF0000"
+                data-icon="youtube"
+                data-prefix="fab"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

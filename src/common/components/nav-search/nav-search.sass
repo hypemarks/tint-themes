@@ -1,0 +1,70 @@
+@import '../../../styles/core/core'
+
+.nav-search
+  cursor: pointer
+  position: relative
+  margin: 0 0 0 5px
+
+  &:hover,
+  &:focus,
+  &:focus-within
+    &::before
+      position: absolute
+      content: ''
+      top: 100%
+      left: 50%
+      margin-left: -8px
+      border-left: 7px solid transparent
+      border-right: 7px solid transparent
+      border-top: 7px solid
+      border-top-color: inherit
+
+    .nav-search__input-wrapper
+      display: block
+
+      &:focus
+        display: block
+
+  &__input
+    margin: 0
+    padding: 2px 5px
+    width: 150px
+    background-color: rgba($c-white, 0.8)
+    border: $g-border $c-white
+    border-radius: $g-border-radius
+
+  &__input-wrapper
+    display: none
+    padding: 7px
+    position: absolute
+    z-index: 1
+    top: 35px
+    left: 50%
+    transform: translateX(-50%)
+
+    &:focus-within
+      display: block
+
+    .nav-search:hover &
+      display: block
+
+  &__item
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    width: 28px
+    height: 28px
+    font-size: $f-font-size-large
+    border-radius: $g-border-radius
+
+.hide-element
+  border: 0
+  clip: rect(1px 1px 1px 1px)
+  clip: rect(1px, 1px, 1px, 1px)
+  height: 1px
+  margin: -1px
+  overflow: hidden
+  padding: 0
+  position: absolute
+  width: 1px

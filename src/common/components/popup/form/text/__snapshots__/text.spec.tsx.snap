@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Text /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <input
+    class="undefined text"
+    id="id"
+    name="name"
+    placeholder="Type here..."
+    type="type"
+    value="value"
+  />
+</DocumentFragment>
+`;

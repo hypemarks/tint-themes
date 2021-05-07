@@ -1,0 +1,29 @@
+@import '../../../styles/core/core'
+
+$box-shadow-focus: $g-box-shadow-hover
+
+.button
+  display: inline-block
+  color: $c-black
+  background-color: transparent
+  text-align: center
+  vertical-align: middle
+  cursor: pointer
+  border: $g-border transparent
+  font-size: $f-font-size
+  font-family: 'Lato', sans-serif
+  padding: calc(0.375 *  #{$f-font-size}) $f-font-size-xsmall
+  line-height: $g-line-height
+  border-radius: calc(0.25 * #{$f-font-size})
+  transition: color $g-transition, background-color $g-transition, border-color $g-transition, box-shadow $g-transition
+  text-transform: uppercase
+  box-shadow: $g-box-shadow rgba(40,40,40,0.3)
+
+  &:active
+    box-shadow: $g-box-shadow-active rgba(0,0,0,0.125)
+  &:hover
+    box-shadow: $g-box-shadow-hover rgba(40,40,40,0.5)
+    &:active
+     box-shadow: $g-box-shadow-active rgba(0,0,0,0.125)
+  &:focus
+    box-shadow: $box-shadow-focus rgba(40,40,40,0.5)

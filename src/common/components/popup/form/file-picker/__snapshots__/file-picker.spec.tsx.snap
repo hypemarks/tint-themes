@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <FilePicker /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <input
+    id="id"
+    name="name"
+    style="display: none;"
+    type="text"
+    value="value"
+  />
+  <button
+    style="color: transparent;"
+    type="button"
+  >
+    <span
+      class="file-picker__text-label"
+    />
+  </button>
+</DocumentFragment>
+`;

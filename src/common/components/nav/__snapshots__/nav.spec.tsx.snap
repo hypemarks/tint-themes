@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Nav /> Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="nav"
+    style="margin-top: 5px;"
+  >
+    <div
+      class="nav__add-post"
+    />
+    <div
+      class="nav__list"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Label /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <label
+    class="undefined"
+    for="id"
+  >
+    label
+  </label>
+</DocumentFragment>
+`;

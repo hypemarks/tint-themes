@@ -1,0 +1,65 @@
+@import '../../../styles/core/core'
+
+$button-width: 25%
+
+.cta-wrapper
+  position: relative
+  height: 128.5px
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+  &__inner
+    position: relative
+
+    &--inPopup
+      display: flex
+      justify-content: center
+
+  &__navigation
+    background: transparent
+    position: absolute
+    top: 0
+    bottom: 0
+    width: $button-width
+
+    &--prev
+      left: 0
+
+    &--next
+      left: calc(100% - #{$button-width})
+
+  &__button
+    width: 100%
+    border-radius: 0
+    display: flex
+    justify-content: center
+    margin: 1px 0
+
+    >svg
+      margin: 0 0 0 auto
+      padding: 0 0 0 10px
+      line-height: inherit
+
+  &__with-image
+    align-items: center
+    border: 1px solid $c-grey
+    border-radius: 2px
+    display: flex
+    margin: 10px
+    padding: 10px
+    flex: 0 1 50%
+
+  &__image
+    border-radius: 4px
+    max-width: 50px
+    width: 50px
+    margin: 0 0 0 15px
+
+.button-with-image
+  margin: 0 0 0 auto
+  width: 100%
+  margin: 10px
+  border-radius: 4px
+  justify-content: center
+  align-items: center

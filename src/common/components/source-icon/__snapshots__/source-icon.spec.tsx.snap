@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Icon /> Component should match snapshot 1`] = `
+<DocumentFragment>
+  <img
+    alt="tiktok icon"
+    class="source-icon source-icon--image"
+    data-testid="source-icon"
+    src="https://cdn.hypemarks.com/assets/profile/tiktok.svg"
+  />
+</DocumentFragment>
+`;

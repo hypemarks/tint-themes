@@ -1,0 +1,18 @@
+@import '../../../styles/core/core'
+
+.slide-navigation
+  position: absolute
+  z-index: $z-index-low
+  background: rgba($c-black, 0.2)
+  font-size: $f-responsive-portrait-large
+  color: $c-white
+  top: 50%
+  transform: translateY(-50%)
+
+  +xsm
+    font-size: $f-responsive-landscape-medium
+
+  &__prev
+    left: $f-responsive-landscape-xsmall
+  &__next
+    right: $f-responsive-landscape-xsmall

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CircleGroup Component should render snapshot 1`] = `
+<DocumentFragment>
+  <svg>
+    <group
+      rotation="45"
+      x="2"
+      y="3"
+    >
+      <circle
+        position="[object Object]"
+        radius="4"
+      />
+    </group>
+  </svg>
+</DocumentFragment>
+`;

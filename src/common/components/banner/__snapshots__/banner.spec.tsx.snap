@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Banner /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="banner"
+    style="background-image: url(banner-url); height: 100px;"
+  />
+</DocumentFragment>
+`;

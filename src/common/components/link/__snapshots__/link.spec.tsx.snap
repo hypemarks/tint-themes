@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Link /> Component should match snapshot 1`] = `
+<DocumentFragment>
+  <a
+    data-testid="link"
+    href="fake-href"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  />
+</DocumentFragment>
+`;

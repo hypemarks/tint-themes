@@ -1,0 +1,47 @@
+@import '../../../../styles/core/core'
+
+.classic-post
+  box-shadow: 0 1px 4px $c-grey
+  border-radius: $g-border-radius
+  background: $c-white
+
+  &__content-wrapper
+    overflow: hidden
+    padding: $f-post-padding
+
+  &__time-actions-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    line-height: $g-line-height
+    padding: 8px 0 0 0
+
+  &__footer
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 18px 0 0 0
+
+    .post-avatar
+      margin: 0 6px 0 0
+
+    .post-share
+      display: flex
+      justify-content: flex-end
+      flex: 1
+
+  .post-content
+    margin: 0 0 8px
+
+  .post-time-actions
+    margin: 0 0 18px
+
+  .post-content-footer
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+  .post-content-layout
+    > *
+      &:last-child
+        margin: 0

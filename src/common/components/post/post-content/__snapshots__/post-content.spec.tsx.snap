@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <PostContent /> Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="text"
+    class="post-content "
+    data-testid="post-content"
+    style="color: rgb(0, 0, 0); font-family: 'Lato';"
+  >
+    <div
+      class="post-content-link"
+      data-testid="post-content-link-button"
+      role="button"
+    >
+      text
+    </div>
+  </div>
+</DocumentFragment>
+`;

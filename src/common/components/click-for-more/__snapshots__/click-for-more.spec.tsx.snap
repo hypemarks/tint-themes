@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ClickForMore /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="click-for-more button"
+    data-testid="click-for-more"
+    tabindex="0"
+    type="button"
+  >
+    click for more
+  </button>
+</DocumentFragment>
+`;

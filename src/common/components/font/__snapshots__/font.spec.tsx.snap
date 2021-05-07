@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Font /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <link
+    data-testid="font-link-tag"
+    href="https://fonts.googleapis.com/css2?family=fontFamily:wght@300;400;700&display=swap\\" rel=\\"stylesheet\\""
+    media="all"
+    rel="stylesheet"
+  />
+</DocumentFragment>
+`;

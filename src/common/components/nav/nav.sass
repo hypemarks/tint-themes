@@ -1,0 +1,45 @@
+@import '../../../styles/core/core'
+
+.nav
+  position: relative
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  height: $s-nav-height
+  width: 100%
+
+  @include xsm
+    position: relative
+    flex-direction: row
+    align-items: center
+    margin: 5px 0
+    min-height: $f-responsive-landscape-medium
+
+  &__add-post
+    position: absolute
+    left: auto
+    top: 48px
+    z-index: $z-index-higher
+
+    +xsm
+      left: 10px
+      top: 8px
+
+  &__list
+    flex: 1 1 auto
+    display: flex
+    flex-direction: row
+    position: relative
+    justify-content: center
+    align-items: center
+    margin: 5px 0
+    z-index: $z-index-high
+
+  &__disabled-layer
+    position: absolute
+    z-index: 2
+    background: $c-grey
+    opacity: 0.5
+    height: 100%
+    width: 100%

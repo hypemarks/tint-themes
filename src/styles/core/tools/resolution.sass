@@ -1,0 +1,38 @@
+@mixin xsm
+  @media (min-width: 576px)
+    @content
+
+=smm
+  @media (min-width: 768px)
+    @content
+
+=mdm
+  @media (min-width: 992px)
+    @content
+
+=xl
+  @media (min-width: 1170px)
+    @content
+
+=xxl
+  @media (min-width: 1440px)
+    @content
+
+=hd
+  @media (min-width: 1920px)
+    @content
+
+$breakpoints: ("xsm": 576px, "smm": 768px, "mdm": 992px, "xl": 1170px, "xxl": 1440px)
+
+$orientations: ("portrait": portrait, "landscape": landscape)
+
+@mixin media($breakpoint, $orientation: "")
+  @if map-has-key($breakpoints, $breakpoint) and map-has-key($orientations, $orientation)
+  $breakpoint-value: map-get($breakpoints, $breakpoint)
+  $orientation-value: map-get($orientations, $orientation)
+  @if $orientation != ""
+    @media (min-width: $breakpoint-value) and (orientation: $orientation)
+      @content
+  @else
+    @media (min-width: $breakpoint-value)
+      @content

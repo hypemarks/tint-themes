@@ -1,0 +1,26 @@
+.post-image-wrapper
+  cursor: pointer
+  position: relative
+  width: 100%
+
+  &--cover
+    height: 100%
+
+    img
+      object-fit: cover
+      height: 100%
+      width: 100%
+
+  > svg
+    position: absolute
+    top: 5px
+    right: 5px
+
+  &--no-image
+    width: 100%
+    display: flex
+    justify-content: center
+    padding: 20px 0 0 0
+
+    svg
+      position: static

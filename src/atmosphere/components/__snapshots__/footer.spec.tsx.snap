@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Footer Component should render snapshot 1`] = `
+<DocumentFragment>
+  <svg>
+    <text
+      align="center"
+      fill="red"
+      font-family="lato"
+      text="NaN year from now"
+      width="23"
+      x="23"
+      y="23"
+    />
+  </svg>
+</DocumentFragment>
+`;

@@ -1,0 +1,30 @@
+@import '../../../../styles/core/core'
+
+.post-author
+  display: flex
+  align-items: center
+  line-height: 1
+  font-size: $f-font-size-large
+
+  span
+    display: block
+
+  &__link
+    display: block
+    flex: 1 1 100%
+    font-weight: 400
+    max-width: 100%
+
+  &__username
+    font-weight: 300
+    font-size: $f-post-username-font-size
+
+  &__username-popup
+    +popupUserName
+
+  &__author-name
+    font-weight: 300
+    font-size: $f-post-author-font-size
+
+  &__author-name-popup
+    +popupAuthorName

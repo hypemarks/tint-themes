@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Avatar Component should render snapshot 1`] = `
+<DocumentFragment>
+  <svg>
+    <circle
+      fill="#000"
+      radius="12"
+      stroke="white"
+      x="18"
+      y="18"
+    />
+    <text
+      align="center"
+      fill="white"
+      font-family="FontAwesome"
+      font-size="12"
+      text=""
+      width="12"
+      x="12"
+      y="12"
+    />
+  </svg>
+</DocumentFragment>
+`;

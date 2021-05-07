@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <PopupPostImage /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <a
+    aria-label="published at null"
+    class="popup-post-time"
+    data-testid="link"
+    href="url"
+    rel="noopener noreferrer"
+    style="color: rgb(228, 228, 228);"
+    tabindex="0"
+    target="_blank"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Style /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <style
+    data-testid="style-tag"
+  >
+    .post{background:red;}
+  </style>
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <RoundedButton /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="base-button rounded-button undefined "
+    data-testid="base-button"
+    style="height: 22px; width: 22px; border-radius: 22px;"
+    type="button"
+  />
+</DocumentFragment>
+`;

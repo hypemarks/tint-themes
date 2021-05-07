@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <PostContentLink /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post-content-link"
+    data-testid="post-content-link-button"
+    role="button"
+  />
+</DocumentFragment>
+`;

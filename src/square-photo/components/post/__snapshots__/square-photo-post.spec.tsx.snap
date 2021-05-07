@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test SquarePhotoLayout Component should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="square-photo-post"
+    style="color: red; height: 200px; width: 200px;"
+    tabindex="0"
+  >
+    <header
+      class="square-photo-post__header"
+    >
+      <div
+        class="square-photo-post__header-cover"
+      />
+      <div
+        class="post-title"
+        data-testid="post-title"
+      >
+        <h3
+          class="post-title__title "
+          style="color: red;"
+        >
+          #dreamsmp #dream #mcyt #sapnap #georgenotfound #wilbursoot #discord #discordserver #hangout #blm #acab #lgbtrights #prochoice #womensrights #biden2020 #dumptrump #dumptrump2020 #polishcow #amongus #minecraft #eret #quackity #jschlatt #nihachu #wilbursoot #discordinvite #invite
+        </h3>
+      </div>
+    </header>
+    <div
+      class="square-photo-post__content"
+    >
+      <div
+        class="post-title"
+        data-testid="post-title"
+      >
+        <h3
+          class="post-title__title "
+          style="color: red;"
+        >
+          #dreamsmp #dream #mcyt #sapnap #georgenotfound #wilbursoot #discord #discordserver #hangout #blm #acab #lgbtrights #prochoice #womensrights #biden2020 #dumptrump #dumptrump2020 #polishcow #amongus #minecraft #eret #quackity #jschlatt #nihachu #wilbursoot #discordinvite #invite
+        </h3>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

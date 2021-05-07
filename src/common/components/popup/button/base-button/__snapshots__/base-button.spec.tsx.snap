@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <BaseButton /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="base-button undefined "
+    data-testid="base-button"
+    type="button"
+  />
+</DocumentFragment>
+`;

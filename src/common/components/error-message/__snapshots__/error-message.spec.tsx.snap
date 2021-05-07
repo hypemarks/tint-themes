@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ErrorMessage /> Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="error-message"
+    data-testid="error-message"
+  >
+    <h1>
+      Something went wrong. Please contact support.
+    </h1>
+  </div>
+</DocumentFragment>
+`;

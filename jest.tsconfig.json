@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "noImplicitUseStrict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "esnext"],
+    "typeRoots": ["node_modules/@types", "src/@types"]
+  },
+  "exclude": ["node_modules", "lib", "test"]
+}

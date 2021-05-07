@@ -1,0 +1,79 @@
+@import '../../../styles/core/core'
+
+$bottom-wrapper-padding: 2.25vw
+
+.popup-post
+  box-shadow: 0 5px 15px rgba($c-black, 0.5)
+  border-radius: 2px
+
+  @include media(smm, landscape)
+    display: flex
+
+  @include media(mdm, portrait)
+    display: block
+
+  &__header
+    margin: 0 0 $f-popup-margins
+    display: flex
+    align-items: flex-start
+    padding: 0 40px 0 0
+
+    .post-avatar
+      margin: 0 6px 0 0
+
+    > svg
+      position: absolute
+      right: 12px
+      top: 12px
+      font-size: $f-post-header-svg-ion
+
+  .as-part-of-image
+    position: absolute
+    top: $f-post-padding
+    right: $f-post-padding
+
+  &:last-child
+    margin: 0
+
+  &__main-wrapper
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 100%
+
+  &__content-wrapper
+    overflow: hidden
+    padding: $f-popup-padding
+
+  &__bottom-wrapper
+    display: flex
+    justify-content: space-between
+    padding: $bottom-wrapper-padding 0 0 0
+    +xl
+      padding: 0
+
+  &__bottom-wrapper-right
+    display: flex
+    align-items: center
+
+  &__bottom-space
+    padding: $bottom-wrapper-padding 0 0 0
+
+  .post-content
+    margin: 0 0 $f-popup-margins
+
+  .products-wrapper
+    height: 100%
+    overflow: auto
+    padding: 0 0 1.2vw
+
+  .post-content-link
+    font-size: $f-responsive-mobile-description
+
+    @include media(smm, landscape)
+      font-size: inherit
+
+  .popup-product-list
+    flex: 1
+    height: 100%
+    overflow: auto

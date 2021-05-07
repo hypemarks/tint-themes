@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Button /> Component should match snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class=" button"
+    href="tintup.com"
+    tabindex="0"
+  />
+</DocumentFragment>
+`;

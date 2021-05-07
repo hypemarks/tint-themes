@@ -1,0 +1,60 @@
+@import '../../../styles/core/core'
+
+.nav-item
+  cursor: pointer
+  position: relative
+  margin: 0 0 0 5px
+
+  &:first-child
+    margin: 0
+
+  &:hover,
+  &:focus,
+  &:focus-within
+    &::before
+      position: absolute
+      content: ''
+      top: 100%
+      left: 50%
+      margin-left: -8px
+      border-left: 7px solid transparent
+      border-right: 7px solid transparent
+      border-top: 7px solid
+      border-top-color: inherit
+
+    .nav-item__list-wrapper
+      display: block
+
+      &:focus
+        display: block
+
+  &__list
+    background: $c-white
+    border-radius: $g-border-radius
+    padding: 7px 12px
+
+    li
+      display: block
+
+  &__list-wrapper
+    display: none
+    z-index: 1
+    position: absolute
+    top: 100%
+    left: 50%
+    transform: translateX(-50%)
+    padding: 8px 0 0
+
+    &:focus-within
+      display: block
+
+  &__icon
+    width: 28px
+    height: 28px
+    color: $c-white
+    font-size: $f-font-size-large
+    border-radius: 2px
+    background: $c-black
+    display: flex
+    justify-content: center
+    align-items: center

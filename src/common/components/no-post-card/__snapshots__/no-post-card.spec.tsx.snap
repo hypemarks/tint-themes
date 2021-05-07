@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <NoPostCard /> Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="no-post-card"
+  >
+    There are no posts here to view yet.
+  </div>
+</DocumentFragment>
+`;

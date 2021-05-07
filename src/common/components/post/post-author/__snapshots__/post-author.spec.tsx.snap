@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <PostAuthor /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="post-author"
+  >
+    <a
+      aria-label="Posted by username"
+      class="post-author__link"
+      data-testid="link"
+      href="url"
+      rel="noopener noreferrer"
+      tabindex="0"
+      target="_blank"
+    >
+      <span
+        class="post-author__author-name"
+        data-testid="author-name"
+        style="color: rgb(0, 0, 0);"
+      >
+        name
+      </span>
+      <span
+        class="post-author__username"
+        data-testid="author-username"
+        style="color: rgb(204, 204, 204);"
+      >
+        @username
+      </span>
+    </a>
+  </div>
+</DocumentFragment>
+`;

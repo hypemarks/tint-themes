@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Pagination /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="pagination button"
+    data-testid="button"
+    tabindex="0"
+    type="button"
+  >
+    Prev
+  </button>
+  <button
+    class="pagination button"
+    data-testid="button"
+    tabindex="0"
+    type="button"
+  >
+    Next
+  </button>
+</DocumentFragment>
+`;

@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+node_modules
+node_modules/*
+!node_modules/.gitkeep
+tests/logs
+**/lib
+*/coverage/*
+*.code-workspace
+.vscode

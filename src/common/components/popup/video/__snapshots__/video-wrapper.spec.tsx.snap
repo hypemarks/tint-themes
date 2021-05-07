@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <VideoWrapper /> Component should render snapshot 1`] = `
+<DocumentFragment>
+  <video
+    autoplay=""
+    data-testid="video-player"
+    height="100%"
+    playsinline=""
+    preload="auto"
+    width="100%"
+  >
+    <source
+      src="url"
+      type="video/mp4"
+    />
+  </video>
+</DocumentFragment>
+`;

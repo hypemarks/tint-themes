@@ -1,0 +1,56 @@
+@import '../../../../styles/core/core.sass'
+
+$s-thumb-size: 10vw
+
+.product-list
+  display: flex
+  flex-wrap: wrap
+  align-items: flex-start
+  overflow: auto
+  margin: 0 -8px
+  height: 100%
+
+  &__item
+    display: flex
+    margin: 0 0 24px
+    padding: 0 8px
+    flex: 0 0 50%
+
+  .product-item
+    cursor: pointer
+    width: 100%
+
+    &__thumb
+      background-color: $c-black
+      border: 1px solid $c-product-border
+      border-radius: 4px
+      margin: 0 0 12px
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 100%
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: 50% 50%
+
+      &::before
+        content: ''
+        display: block
+        padding-top: 100%
+
+      img
+        max-width: 100%
+
+    &__name
+      font-size: $f-responsive-landscape-medium
+      margin: 0 0 12px
+
+      @include media(mdm, landscape)
+        font-size: $f-responsive-landscape-xsmall
+
+    &__price
+      color: $c-dark-grey
+      font-size: $f-responsive-landscape-medium
+
+      @include media(mdm, landscape)
+        font-size: $f-responsive-landscape-xsmall

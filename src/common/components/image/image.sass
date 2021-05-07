@@ -1,0 +1,85 @@
+@import '../../../styles/core/core.sass'
+
+.image
+  display: flex
+  align-items: center
+  justify-content: center
+  overflow: hidden
+  position: relative
+
+  img
+    display: block
+    width: 100%
+    max-width: 100%
+
+    &[alt]
+      font-size: $f-font-size-xxsmall
+
+  &__icon-loading
+    height: 25vw
+
+    +xl
+      height: 10vw
+
+  &--loaded
+    height: inherit
+
+  &--loading
+    height: 25vw
+
+    +xl
+      height: 15vw
+
+    .image__icon-loading
+      display: flex
+      align-items: center
+      justify-content: center
+      color: $c-grey
+      background: $c-light-grey
+      width: 100%
+      position: absolute
+      top: 0
+      height: 25vw
+
+      +xl
+        height: 15vw
+
+  &--cover
+    &.image__icon-loading
+      height: 100%
+
+    &.image--loading
+      height: 100%
+
+      .image__icon-loading
+        height: 100%
+
+  .image-popup
+    position: relative
+
+    &--horizontal
+      width: 100%
+
+      img
+        max-height: 100%
+
+    &--vertical
+      height: 100%
+
+      img
+        width: auto
+
+        @include media(xsm, landscape)
+          height: 100%
+
+    &--square
+      height: 100%
+
+      @include media(xsm, landscape)
+        img
+          height: 100%
+
+      img
+        width: auto
+        object-fit: contain
+        margin: 0 auto
